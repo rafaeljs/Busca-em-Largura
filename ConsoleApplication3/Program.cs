@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Busca_em_Lagura;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication3
-{
+namespace Busca_em_Largura{
     class Program{
         static void Main(string[] args){
             int quantidade;

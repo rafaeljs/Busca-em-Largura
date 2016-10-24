@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication3 {
+namespace Busca_em_Lagura {
     class Grafo {
         List<int>[] Grafos;
         int[] Fila;
