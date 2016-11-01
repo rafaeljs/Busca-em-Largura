@@ -14,10 +14,11 @@ namespace Busca_em_Largura{
             Grafo grafo = new Grafo(quantidade);
             grafo.insere();
             grafo.imprimir();
-           
-            Console.Write("Insira o indice inicial: ");
+            
+            Console.Write("Insira o indice inicial para busca em largura: ");
             int indice = Convert.ToInt32(Console.ReadLine()) - 1;
             grafo.buscaEmLargura(indice);
+            grafo.BuscaEmProfundidade();
             Console.ReadKey();
         }
     }
